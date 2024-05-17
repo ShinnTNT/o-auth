@@ -1,10 +1,10 @@
-import { Button } from "@nextui-org/button";
+import FacebookLogin from "./components/FacebookLogin";
 
 function App() {
   return (
-    <>
-      <Button color="secondary">Button</Button>
-    </>
+    <div className="w-full h-screen flex justify-center items-center">
+      <FacebookLogin />
+    </div>
   );
 }
 
